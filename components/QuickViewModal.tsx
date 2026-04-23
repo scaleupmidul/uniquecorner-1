@@ -83,7 +83,7 @@ const QuickViewModal: React.FC<QuickViewModalProps> = ({ product, isOpen, onClos
               <span className="text-base text-gray-500 line-through">৳{regularPrice.toLocaleString('en-IN')}</span>
               <span className="text-2xl font-bold text-emerald-600">৳{product.price.toLocaleString('en-IN')}</span>
             </div>
-            <p className="text-sm text-gray-700 leading-relaxed mt-4">{product.description}</p>
+            <p className="text-sm text-gray-700 leading-relaxed mt-4 whitespace-pre-wrap">{product.description}</p>
           </div>
             
           <div className="space-y-3 pt-2 pb-4 border-y border-emerald-100">
