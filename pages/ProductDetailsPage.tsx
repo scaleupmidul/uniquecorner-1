@@ -478,7 +478,7 @@ const ProductDetailsPage: React.FC = () => {
 
                 <div className="space-y-2">
                     <Accordion title="Product Description" defaultOpen>
-                        <p className="mb-4 text-stone-600 font-light">{product.description}</p>
+                        <p className="mb-4 text-stone-600 font-light whitespace-pre-wrap">{product.description}</p>
                     </Accordion>
                     <Accordion title="Material & Specifications" icon={ShieldCheck}>
                         <div className="space-y-2">
